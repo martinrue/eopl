@@ -1,0 +1,26 @@
+{
+  "name": "eopl",
+  "version": "0.0.1",
+  "description": "Transcribes Esperanto sentences to phonetic Polish for use in TTS engines",
+  "main": "eopl.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/martinrue/eopl.git"
+  },
+  "keywords": [
+    "esperanto"
+  ],
+  "author": "Martin Rue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinrue/eopl/issues"
+  },
+  "homepage": "https://github.com/martinrue/eopl#readme",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.2.5"
+  }
+}
