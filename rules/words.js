@@ -7,25 +7,25 @@ var adverbs = {
 };
 
 var nouns = {
-
+  'kafeyo': 'kafejo'
 };
 
 var pronouns = {
-  'ĝin': 'dżijn',
+  'ĝin': 'dżiin',
   'ŝin': 'szjin'
 };
 
 var interrogatives = {
-  'kiel': 'kijel',
-  'kial': 'kijal',
-  'kiom': 'kijom',
-  'kien': 'kijen',
-  'kiam': 'kijam',
-  'kies': 'kijes',
-  'kiu': 'kiju',
-  'kie': 'kije',
+  'kiel': 'kiyel',
+  'kial': 'kiyal',
+  'kiom': 'kiom',
+  'kien': 'kiyen',
+  'kiam': 'kiam',
+  'kies': 'kiyes',
+  'kiu': 'kiu',
+  'kie': 'kiye',
   'kio': 'kijo',
-  'kia': 'kija',
+  'kia': 'kia',
 
   'tiel': 'tijel',
   'tial': 'tijal',
@@ -73,7 +73,7 @@ var interrogatives = {
 };
 
 var others = {
-  'jes': 'jjes'
+
 };
 
 helper.extend(overrides, adverbs);

@@ -32,7 +32,7 @@ describe('letters', function() {
 
   it('should preserve casing and punctuation', function() {
     var input = 'Saluton, kiel vi fartas? Mi fartas bone!';
-    var expected = 'Saluton, kijel wi fartas? Mi fartas bone!';
+    var expected = 'Saluton, kiyel wi fartas? Mi fartas bone!';
 
     expect(eopl.transcribe(input)).to.equal(expected);
   });
