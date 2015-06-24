@@ -1,6 +1,6 @@
 {
   "name": "eopl",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Transcribes Esperanto sentences to phonetic Polish for use in TTS engines",
   "main": "eopl.js",
   "scripts": {
