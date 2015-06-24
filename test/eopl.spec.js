@@ -56,24 +56,28 @@ var common = [
   },
   {
     input: 'Kiel. Kial. Kiom. Kien. Kiam. Kies. Kiu. Kie. Kio. Kia.',
-    expected: 'Kiyel. Kiyal. Kiom. Kiyen. Kiam. Kiyes. Kiu. Kiye. Kijo. Kia.'
+    expected: 'Kiyel. Kiyal. Kijom. Kijen. Kijam. Kiyes. Kiju. Kiye. Kijo. Kija.'
   },
-  //{
-  //   input: 'Ĉiel. Ĉial. Ĉiom. Ĉien. Ĉiam. Ĉies. Ĉiu. Ĉie. Ĉio. Ĉia.',
-  //   expected: 'Cijel. Czjal. Czjom. Czjen. Czjam. Czjjes. Czjiu. Cije. Cijo. Cija.'
-  // },
-  // {
-  //   input: 'Iel. Ial. Iom. Ien. Iam. Ies. Iu. Ie. Io. Ia.',
-  //   expected: 'Ijel. Ial. Iom. Ijen. Iam. Ijes. Iju. Ije. Io. Ia.'
-  // },
-  // {
-  //   input: 'Tiel. Tial. Tiom. Tien. Tiam. Ties. Tiu. Tie. Tio. Tia.',
-  //   expected: 'Tijel. Tijal. Tijom. Tijen. Tijam. Tijes. Tiju. Tije. Tijo. Tija.'
-  // },
-  // {
-  //   input: 'Neniel. Nenial. Neniom. Nenien. Neniam. Nenies. Neniu. Nenie. Nenio. Nenia.',
-  //   expected: 'Nenijel. Nenijal. Nenijom. Nenijen. Nenijam. Nenijes. Neniju. Nenije. Nenijo. Nenija.'
-  // }
+  {
+    input: 'Ĉiel. Ĉial. Ĉiom. Ĉien. Ĉiam. Ĉies. Ĉiu. Ĉie. Ĉio. Ĉia.',
+    expected: 'Ciyel. Ciyal. Cijom. Cijen. Cijam. Cijes. Ciju. Cije. Cijo. Cija.'
+  },
+  {
+    input: 'Iel. Ial. Iom. Ien. Iam. Ies. Iu. Ie. Io. Ia.',
+    expected: 'Ijel. Ijal. Ijom. Ijen. Ijam. Ijes. Iju. Ije. Ijo. Ija.'
+  },
+  {
+    input: 'Tiel. Tial. Tiom. Tien. Tiam. Ties. Tiu. Tie. Tio. Tia.',
+    expected: 'Tijel. Tijal. Tijom. Tijen. Tijam. Tijes. Tiju. Tije. Tijo. Tija.'
+  },
+  {
+    input: 'Neniel. Nenial. Neniom. Nenien. Neniam. Nenies. Neniu. Nenie. Nenio. Nenia.',
+    expected: 'Nenijel. Nenijal. Nenijom. Nenijen. Nenijam. Nenijes. Neniju. Nenije. Nenijo. Nenija.'
+  },
+  {
+    input: 'Unu. Du. Tri. Kvar. Kvin. Ses. Sep. Ok. Naŭ. Dek.',
+    expected: 'Unu. Du. Tri. Kjvar. Kjvin. Ses. Sep. Ohk. Nał. Dek.'
+  }
 ];
 
 describe('eopl', function() {

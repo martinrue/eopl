@@ -15,17 +15,30 @@ var pronouns = {
   'ŝin': 'szjin'
 };
 
+var numbers = {
+  'unu': 'unu',
+  'du': 'du',
+  'tri': 'tri',
+  'kvar': 'kjvar',
+  'kvin': 'kjvin',
+  'ses': 'ses',
+  'sep': 'sep',
+  'ok': 'ohk',
+  'naŭ': 'nał',
+  'dek': 'dek'
+};
+
 var interrogatives = {
   'kiel': 'kiyel',
   'kial': 'kiyal',
-  'kiom': 'kiom',
-  'kien': 'kiyen',
-  'kiam': 'kiam',
+  'kiom': 'kijom',
+  'kien': 'kijen',
+  'kiam': 'kijam',
   'kies': 'kiyes',
-  'kiu': 'kiu',
+  'kiu': 'kiju',
   'kie': 'kiye',
   'kio': 'kijo',
-  'kia': 'kia',
+  'kia': 'kija',
 
   'tiel': 'tijel',
   'tial': 'tijal',
@@ -39,23 +52,23 @@ var interrogatives = {
   'tia': 'tija',
 
   'iel': 'ijel',
-  'ial': 'ial',
-  'iom': 'iom',
+  'ial': 'ijal',
+  'iom': 'ijom',
   'ien': 'ijen',
-  'iam': 'iam',
+  'iam': 'ijam',
   'ies': 'ijes',
   'iu': 'iju',
   'ie': 'ije',
-  'io': 'io',
-  'ia': 'ia',
+  'io': 'ijo',
+  'ia': 'ija',
 
-  'ĉiel': 'cijel',
-  'ĉial': 'czjal',
-  'ĉiom': 'czjom',
-  'ĉien': 'czjen',
-  'ĉiam': 'czjam',
-  'ĉies': 'czjjes',
-  'ĉiu': 'czjiu',
+  'ĉiel': 'ciyel',
+  'ĉial': 'ciyal',
+  'ĉiom': 'cijom',
+  'ĉien': 'cijen',
+  'ĉiam': 'cijam',
+  'ĉies': 'cijes',
+  'ĉiu': 'ciju',
   'ĉie': 'cije',
   'ĉio': 'cijo',
   'ĉia': 'cija',
@@ -80,6 +93,7 @@ helper.extend(overrides, adverbs);
 helper.extend(overrides, nouns);
 helper.extend(overrides, pronouns);
 helper.extend(overrides, interrogatives);
+helper.extend(overrides, numbers);
 helper.extend(overrides, others);
 
 module.exports = overrides;
