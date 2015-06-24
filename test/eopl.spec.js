@@ -77,7 +77,11 @@ var common = [
   {
     input: 'Unu. Du. Tri. Kvar. Kvin. Ses. Sep. Ok. Naŭ. Dek.',
     expected: 'Unu. Du. Tri. Kjvar. Kjvin. Ses. Sep. Ohk. Nał. Dek.'
-  }
+  },
+  {
+    input: 'Italio. Ĉinio. Germanio. Anglio. Japanio. Hispanio. Usono.',
+    expected: 'Iyjtalijo. Czinijo. Germanijo. Anglijo. Japanijo. Hispanijo. Usono.'
+  },
 ];
 
 describe('eopl', function() {

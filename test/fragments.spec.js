@@ -32,6 +32,13 @@ describe('fragment overrides', function() {
     expect(eopl.transcribe('xxxidexxx')).to.equal('xxxidexxx');
   });
 
+  it('should replace words ending io/ioy/ioyn with ijo/ijoj/ijojn', function() {
+    expect(eopl.transcribe('la germanio')).to.equal('la germanijo');
+    expect(eopl.transcribe('la germanioj')).to.equal('la germanijoj');
+    expect(eopl.transcribe('la germaniojn')).to.equal('la germanijojn');
+    expect(eopl.transcribe('xgermaniox xgermaniojx xgermaniojnx')).to.equal('xgermaniox xgermanioyx xgermanioynx');
+  });
+
   it('should replace words ending feyo/feyoy/feyoyn with fejo/feyoj/feyojn', function() {
     expect(eopl.transcribe('la kafejo')).to.equal('la kafejo');
     expect(eopl.transcribe('la kafejoj')).to.equal('la kafeyoj');

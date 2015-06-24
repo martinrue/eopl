@@ -77,8 +77,14 @@ var interrogatives = {
   'nenia': 'nenija'
 };
 
+var countries = {
+  'italio': 'iyjtalijo',
+  'japanio': 'japanijo'
+};
+
 helper.extend(overrides, pronouns);
 helper.extend(overrides, interrogatives);
 helper.extend(overrides, numbers);
+helper.extend(overrides, countries);
 
 module.exports = overrides;
