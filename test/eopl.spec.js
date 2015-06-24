@@ -24,7 +24,7 @@ var common = [
   },
   {
     input: 'Parolu pli malrapide, mi petas.',
-    expected: 'Parolu pli marapiyde, mi petas.'
+    expected: 'Parolu pli malrapijde, mi petas.'
   },
   {
     input: 'Kiel oni diras tion en Esperanto?',

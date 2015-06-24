@@ -42,5 +42,3 @@ var transcribe = function(sentence) {
 module.exports = {
   transcribe: transcribe
 };
-
-console.log(transcribe('Mi ŝatas vin. Ĉu vi volas iri al la kafejo?'));

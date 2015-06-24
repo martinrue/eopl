@@ -2,14 +2,6 @@ var helper = require('../lib/helper');
 
 var overrides = {};
 
-var adverbs = {
-  'malrapide': 'marapiyde'
-};
-
-var nouns = {
-  'kafeyo': 'kafejo'
-};
-
 var pronouns = {
   'ĝin': 'dżiin',
   'ŝin': 'szjin'
@@ -85,15 +77,8 @@ var interrogatives = {
   'nenia': 'nenija'
 };
 
-var others = {
-
-};
-
-helper.extend(overrides, adverbs);
-helper.extend(overrides, nouns);
 helper.extend(overrides, pronouns);
 helper.extend(overrides, interrogatives);
 helper.extend(overrides, numbers);
-helper.extend(overrides, others);
 
 module.exports = overrides;
