@@ -15,7 +15,7 @@ npm install https://github.com/martinrue/eopl/tarball/master
 ```javascript
 var eopl = require('eopl');
 console.log(eopl.transcribe('Ĉu vi ŝatas Esperanton? Esperanto estas facila lingvo.'));
-// Czu wi szatas Esperanton? Esperanto estas facjla lijngwo.
+// Czu wi szatas Esperanton? Esperanto estas facyla lijngwo.
 ```
 
 Playing the output using a commercial TTS engine (such as [Acapela](http://www.acapela-group.com)) in a Polish voice produces a reasonable pronunciation of the original Esperanto sentence.
