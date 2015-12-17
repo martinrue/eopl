@@ -20,7 +20,7 @@ var numbers = {
   'dek': 'dek'
 };
 
-var interrogatives = {
+var correlatives = {
   'kiel': 'kiyel',
   'kial': 'kiyal',
   'kiom': 'kijom',
@@ -82,9 +82,14 @@ var countries = {
   'japanio': 'japanijo'
 };
 
+var special = {
+  'yakk': 'yak'
+};
+
 helper.extend(overrides, pronouns);
-helper.extend(overrides, interrogatives);
+helper.extend(overrides, correlatives);
 helper.extend(overrides, numbers);
 helper.extend(overrides, countries);
+helper.extend(overrides, special);
 
 module.exports = overrides;
